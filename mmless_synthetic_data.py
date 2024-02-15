@@ -1,7 +1,7 @@
 from faker import Faker
 import pandas as pd
 
-# Initialize Faker generator
+# Initialize Faker generator150712
 fake = Faker()
 
 # Generate synthetic data

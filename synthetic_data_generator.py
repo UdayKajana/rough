@@ -14,4 +14,4 @@ for it in range(1,50,1):
         'Location': [fake.city() for _ in range(80000)]
     }
     df = pd.DataFrame(data)
-    df.to_csv("synthetic_data/syn_emp_data{}.csv".format(it), index=False)
+    df.to_csv("synthetic_data1/syn_emp_data{}.csv".format(it), index=False)
